@@ -249,8 +249,8 @@ table.table-bordered .fa {
 }
 
 .custom-checkbox .checkmark:after {
-    top: -5px;
-    left: 2px;
+    top: 2px;
+    left: 5px;
 }
 
 .custom-checkbox .label {
