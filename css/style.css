@@ -177,7 +177,7 @@ table.table-bordered .fa {
 }
 
 .price-circle {
-    border: 1px solid #6c757d;
+    border: 1px solid #6c757d00;
     border-radius: 50%;
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;
@@ -189,6 +189,7 @@ table.table-bordered .fa {
     align-items: center;
     width: 180px;
     height: 180px;
+    box-shadow: 0px 0px 9px 0px #ddd;
     margin: 2% auto;
 }
 
@@ -202,11 +203,12 @@ table.table-bordered .fa {
     padding-right: 35px;
     margin-bottom: 12px;
     cursor: pointer;
-    font-size: 22px;
+    font-size: 14px;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    text-align: right;
 }
 
 .custom-checkbox input {
@@ -252,7 +254,7 @@ table.table-bordered .fa {
 }
 
 .custom-checkbox .label {
-    font-size: 16px;
+    font-size: 13px;
 }
 
 .btn-secondary {
