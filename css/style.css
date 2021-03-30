@@ -30,11 +30,30 @@ body {
     font-family: 'DinRegular';
 }
 
+.last-row-in-table {
+    border: 0;
+}
+
+.last-row-in-table td {
+    border: 0;
+    box-shadow: none !important;
+}
+
 .pricing-card {
     transition: all .2s ease-in-out;
     color: #111;
     display: inline-block;
     width: 100%;
+    box-shadow: 0px 0px 5px 0px #ddd;
+}
+
+.btn {
+    border-radius: 11px;
+    -webkit-border-radius: 11px;
+    -moz-border-radius: 11px;
+    -ms-border-radius: 11px;
+    -o-border-radius: 11px;
+    padding: .55rem 1.95rem;
 }
 
 .pricing-card:hover {
@@ -63,6 +82,7 @@ body {
 
 .table-bordered td {
     box-shadow: 1px 1px 2px 0px #bbb;
+    vertical-align: middle;
 }
 
 h2.center {
@@ -192,10 +212,26 @@ table.table-bordered .fa {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 180px;
-    height: 180px;
+    width: 150px;
+    height: 150px;
     box-shadow: 0px 0px 9px 0px #ddd;
-    margin: 2% auto;
+    /* margin: 2% auto; */
+}
+
+@media (min-width: 768px) {
+    .pr-custom {
+        padding-right: 6rem
+    }
+    .pl-custom {
+        padding-left: 7rem
+    }
+    .mr-custom {
+        margin-right: 6rem !important;
+    }
+}
+
+.price-circle__price {
+    font-size: 2.5rem;
 }
 
 .price-circle__currency {
@@ -277,6 +313,25 @@ table.table-bordered .fa {
     border-radius: 50pc;
     width: 44px;
     height: 30px;
+}
+
+.to-top {
+    background-color: #6c757d;
+    border-color: #6c757d;
+    border: 0;
+    border-radius: 50pc;
+    width: 28px;
+    height: 42px;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+    display: flex;
+    justify-content: center;
+    outline: none;
+}
+
+.to-top:focus {
+    outline: none;
 }
 
 .alert {
