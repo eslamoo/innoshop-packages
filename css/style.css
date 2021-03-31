@@ -190,11 +190,12 @@ table.table-bordered .fa {
 }
 
 .custom-radios .checkmark:after {
-    top: -3px;
-    left: 16px;
+    top: 1px;
+    left: 13px;
     width: 8px;
     height: 8px;
     border-radius: 50%;
+    font-size: 15px;
 }
 
 .plan-profile__payment {
@@ -437,8 +438,8 @@ section#inno--compare-packages .compare-packages_row .cp-square.data .true:befor
     content: "";
     display: block;
     background-repeat: no-repeat;
-    width: 25px;
-    height: 25px;
+    width: 18px;
+    height: 18px;
     position: absolute;
     left: 50%;
     top: 50%;
@@ -451,8 +452,9 @@ section#inno--compare-packages .compare-packages_row .cp-square.data {
 
 section#inno--compare-packages .compare-packages_row .cp-square.white {
     background-color: #fff;
-    border: 0e6;
+    border: 0;
     box-shadow: none;
+    margin-top: 20px;
 }
 
 .compare-packages .compare-packages_row .cp-square.logo {
@@ -503,25 +505,30 @@ section#inno--compare-packages .compare-packages_row .cp-square.logo img {
         transform: rotate(180deg)
     }
     100% {
-        transform: rotate(360deg)
+        transform: rotate(360deg);
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -ms-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
     }
 }
 
 .ldio-x3j41sdsqb div {
     position: absolute;
-    animation: ldio-x3j41sdsqb 1s linear infinite;
-    width: 160px;
-    height: 160px;
-    top: 20px;
-    left: 20px;
+    animation: fa-spin 1s linear infinite;
+    width: 120.8px;
+    height: 120.8px;
+    top: 15.1px;
+    left: 15.1px;
     border-radius: 50%;
     box-shadow: 0 4px 0 0 #ee5050;
-    transform-origin: 80px 82px;
+    transform-origin: 60.4px 61.5325px;
+    -webkit-animation: fa-spin 1s linear infinite;
 }
 
 .loadingio-spinner-eclipse-5filpdana3s {
-    width: 200px;
-    height: 200px;
+    width: 151px;
+    height: 151px;
     display: inline-block;
     overflow: hidden;
     background: none;
@@ -539,4 +546,8 @@ section#inno--compare-packages .compare-packages_row .cp-square.logo img {
 
 .ldio-x3j41sdsqb div {
     box-sizing: content-box;
+}
+
+.table-sub-title {
+    margin: 20px 0;
 }
